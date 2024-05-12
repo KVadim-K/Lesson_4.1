@@ -12,7 +12,6 @@ class warrior():
         print(f"{self.name} сел поесть")
         self.endurance += 3
         self.power += 10
-
     def hit(self):
         print(f"{self.name} нанес удар")
         self.endurance -= 6
@@ -40,5 +39,5 @@ war2.hit()
 war2.wolk()
 print(war2.name, war2.power, war2.endurance, war2.hair_color)
 
-
+sleep()
 

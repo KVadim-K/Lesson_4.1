@@ -9,7 +9,7 @@ class Account():
     def withdraw(self, money):
         if money > self.balance:
             print(f"Вы успешно положили {money} рублей на счет. Сумма на счету - {self.balance}.")
-        elif money <= self.balance:
+        elif money < self.balance:
             self.balance -= money
             print(f"Вы успешно сняли {money} рублей со счета. Остаток на счету - {self.balance}.")
     def info(self):
