@@ -39,5 +39,6 @@ war2.hit()
 war2.wolk()
 print(war2.name, war2.power, war2.endurance, war2.hair_color)
 
-sleep()
+war1.info()
+war2.info()
 
